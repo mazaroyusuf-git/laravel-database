@@ -11,6 +11,8 @@ use function Laravel\Prompts\select;
 
 class CrudTest extends TestCase
 {
+    //laravel punya command di artisan bernama db:
+
     //Untuk mengkonfigurasi Database kita bisa mengatur nya di config/database.php rata2 pengaturan nya dari env, kita juga bisa berinteraksi dengan database
     //menggunakan Facade DB https://laravel.com/api/10.x/Illuminate/Support/Facades/DB.html 
 
